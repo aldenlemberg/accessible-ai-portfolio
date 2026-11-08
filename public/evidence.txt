@@ -41,3 +41,19 @@ Three saved project repositories were identified and reviewed selectively for
 portfolio-relevant evidence. This is not an exhaustive audit of every file or
 all projects ever built. Local implementation claims are distinguished from
 research claims and user-reported experience. No credentials are included.
+
+4. SCULPTOR AI — USER-SUPPLIED EXPERIENCE
+Contributor, part-time, June–July 2025, Seattle / remote.
+User reports engineering and deploying a custom Judge0-based serverless execution
+engine for AI agents to run and evaluate student code in educational settings.
+The official Judge0 repository was consulted for the open-source tool attribution.
+Sculptor implementation and deployment records were not inspected.
+
+5. VETRAI — USER-SUPPLIED EXPERIENCE
+June–November 2025, associated with XenPac. User reports engineering an autonomous
+research pipeline with hallucination mitigation and the fastest deep-research cycle
+at launch in contemporaneous head-to-head comparisons. No benchmark dataset,
+methodology, competitors, or measurements were supplied. Preserve this as a
+reported historical benchmark, not an independently verified or current ranking.
+A collaborator name was omitted pending sharing permission. These experiences
+are background, not established semester learning activities.
