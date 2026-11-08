@@ -1,0 +1,43 @@
+ALDEN LEMBERG — PROJECT EVIDENCE NOTES
+Prepared November 8, 2026. Sanitized implementation inventory, not a production audit.
+
+1. ACCESSIBLE / A11YFORGE
+Reviewed README.md; apps/worker/package.json; apps/web/package.json;
+apps/worker/src/integrations/gemini.ts; apps/web/src/lib/gemini-review.ts;
+apps/worker/src/persist.ts; scanner references; apps/worker/test/prDiff.test.ts.
+
+Gemini integration sends a structured schema and requests JSON. The review schema
+contains manual-check and confidence fields. Scanner code references axe-core,
+HTML_CodeSniffer, Lighthouse and veraPDF. Persistence logic explicitly avoids
+redundant Lighthouse/axe findings. The README describes Docker application builds,
+source-review fallback, and a human auditor/emulation route. Replacement tests
+cover skipping stale suggestions. Availability of infrastructure was not validated.
+
+User-confirmed contribution: built the Ablr tool, including Docker AI analysis and
+code review/analysis tools. User-reported outcome: positive feedback and a personal
+meeting with Ablr executives regarding development of an additional product.
+Specific feedback and resulting changes still need to be supplied.
+
+2. NOTEPRO
+Reviewed README.md; package.json; src/lib/gemini.ts; server/api.ts references;
+tests/gemini.integration.ts; tests/pdf.integration.ts.
+The current solve prompt requests transcription before reasoning. The application
+returns a visible 'Read as' transcription. EmbedPDF, BlockNote, Yjs and associated
+libraries appear in the package manifest. The README describes their integration.
+The Gemini API test uses a mocked upstream and database query; it does not contact
+a live AI model. It tests missing keys, model configuration, upstream 404 and 429.
+The portfolio's early prompt is an illustrative reconstruction, not a historical
+artifact. Individual-project status requires confirmation.
+
+3. TFRC / TRUEFANS CONNECT
+Reviewed README.md; package.json; lib/artist-agent/run-loop.ts.
+The artist assistant is instructed to read actual platform data before drafting,
+propose campaigns subject to approval, and avoid claiming a message was sent.
+This is code evidence, not a runtime verification of all permission checks.
+No fan/customer records or confidential operational data are included.
+
+SCOPE
+Three saved project repositories were identified and reviewed selectively for
+portfolio-relevant evidence. This is not an exhaustive audit of every file or
+all projects ever built. Local implementation claims are distinguished from
+research claims and user-reported experience. No credentials are included.
