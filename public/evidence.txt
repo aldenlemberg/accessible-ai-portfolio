@@ -1,4 +1,7 @@
 ALDEN LEMBERG — PROJECT EVIDENCE NOTES
+Portfolio display label: Ablr Accessibility Platform. The existing repository
+uses a legacy internal name; the portfolio label is descriptive, not an official
+Ablr product announcement.
 Prepared November 8, 2026. Sanitized implementation inventory, not a production audit.
 
 1. ACCESSIBLE / A11YFORGE
