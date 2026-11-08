@@ -57,3 +57,20 @@ methodology, competitors, or measurements were supplied. Preserve this as a
 reported historical benchmark, not an independently verified or current ranking.
 A collaborator name was omitted pending sharing permission. These experiences
 are background, not established semester learning activities.
+
+6. ACCESSIBILITY CODE-REVIEW ENGINE — ADDITIONAL CODE REVIEW
+Read apps/worker/src/integrations/prReview.ts, scanners/codeReview.ts references,
+and integrations/jira.ts re-verification logic. The PR engine maps scan findings
+to numbered changed files, validates confidence and diff ranges, and posts inline
+suggestions. Requested fix PRs skip stale replacements. Human audit requests and
+Jira re-verification complete parts of the workflow. CodeRabbit is an analogy,
+not a claimed dependency, affiliation, or integration. Context and review bounds
+mean this is not exhaustive coverage or an accessibility certification.
+
+7. ADDITIONAL MODEL EXPERIENCE — USER CONFIRMED
+Kimi K2 and Claude: used toward more efficient outputs for specific tasks.
+Specialized agents: used for specific jobs.
+Custom browser models: small language models with fewer parameters for specific
+tasks. Do not assume quantization, fine-tuning, training from scratch, a particular
+runtime, offline operation, benchmark scores, or model sizes. Examples and
+course timing remain to be documented.
